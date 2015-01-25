@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No Lock Screen</string>
+    <string name="widget_label_1x1">No Lock Screen</string>
+    <string name="service_name">No Lock Screen</string>
+    <string name="lockscreen_is_off">Blokada ekranu jest <b>wyłączona</b>.</string>
+    <string name="activity_preferences">Ustawienia No Lock Screen</string>
+    <string name="select_to_configure">Wybierz aby <b>zmienić ustawienia</b>.</string>
+    <string name="tap_to_turn_on">Zaznacz aby <b>wyłączyć blokadę ekranu</b>.</string>
+    <string name="preferences">Ustawienia</string>
+    
+    <string name="PrefCategory_Options">Ogólne</string>
+    
+    <string name="PrefTitle_PrefHideNotification">Ukryj powiadomienie</string>
+    <string name="PrefDesc_PrefHideNotification">Powiadomienie zniknie po 5 sekundach od wyłączenia blokady ekranu. (Niestabilne)</string>
+    
+    <string name="PrefCategory_ActivateOnly">Reguły</string>
+    
+    <string name="PrefTitle_PrefActivateOnlyWhenCharging">Tylko podczas ładowania</string>
+    <string name="PrefDesc_PrefActivateOnlyWhenCharging">Wyłącza blokadę ekranu tylko podczas ładowania.</string>
+    <!-- 
+    <string name="PrefTitle_PrefActivateOnlyWhenHeadphonesPluggedIn">Tylko kiedy słuchawki podłączone</string>
+    <string name="PrefDesc_PrefActivateOnlyWhenHeadphonesPluggedIn">Wyłącza blokadę ekranu kiedy podłączone są słuchawki.</string>
+    
+    <string name="PrefTitle_PrefActivateOnlyWhenDocked">Tylko w stacji</string>
+    <string name="PrefDesc_PrefActivateOnlyWhenDocked">Wyłącza blokadę ekranu po umieszczeniu w stacji dokującej.</string>
+    
+    <string name="PrefCategory_PreventActivationOn">Powstrzymaj samoczynne odblokowywanie</string>
+
+    <string name="PrefTitle_PreventActivationOnCameraButton">Przycisk aparatu</string>
+    <string name="PrefDesc_PreventActivationOnCameraButton">Wciśnięcie przycisku aparatu nie powoduje odblokowania.</string>
+    
+    <string name="PrefTitle_PreventActivationOnCallButton">Przycisk słuchawki</string>
+    <string name="PrefDesc_PreventActivationOnCallButton">Wciśnięcie przycisku słuchawki nie powoduje odblokowania.</string>
+     -->
+</resources>

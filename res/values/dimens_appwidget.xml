@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<!-- 
+		AppWidget Dimensions
+		Based on the formula (number of cells * 74) - 2
+		Reference: http://developer.android.com/guide/topics/appwidgets/index.html
+	-->
+	<dimen name="AppWidget_1Cell">72dp</dimen>
+</resources>

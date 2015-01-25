@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.futonredemption.nokeyguard"
+    android:versionCode="80" android:versionName="8.0">
+    
+    <uses-sdk android:minSdkVersion="4" android:targetSdkVersion="15" />
+    
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD" />
+    <uses-feature android:name="android.hardware.touchscreen" android:required="false" />
+    
+    <application android:debuggable="false"
+        android:hardwareAccelerated="true" android:icon="@drawable/ic_launcher" android:label="@string/app_name">
+        
+        <activity android:name="com.futonredemption.nokeyguard.activities.LockScreenActivity"
+        	android:theme="@style/Klondike">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        
+        <activity android:enabled="true"
+            android:excludeFromRecents="true" android:exported="true"
+            android:label="@string/activity_preferences"
+            android:launchMode="singleTop"
+            android:theme="@style/Klondike"
+            android:name="com.futonredemption.nokeyguard.activities.NoKeyguardPreferenceActivity" android:noHistory="true" />
+
+        <receiver android:enabled="false" android:name=".receivers.PowerStateChangedReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" />
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" />
+            </intent-filter>
+        </receiver>
+        
+        <receiver android:enabled="true" android:exported="true"
+            android:label="@string/widget_label_1x1" android:name=".appwidgets.AppWidgetProvider1x1">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/appwidget_1x1" />
+        </receiver>
+        <service android:enabled="true"
+            android:label="@string/service_name" android:name=".services.DisableKeyguardService" />
+    </application>
+</manifest>

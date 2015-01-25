@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<color name="warning">#55FFFF00</color>
+	<color name="item_selection">@color/blue_holo</color>
+    <color name="blue_holo">#9933B5E5</color>
+</resources>

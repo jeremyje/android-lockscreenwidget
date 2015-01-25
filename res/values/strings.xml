@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">No Lock Screen</string>
+    <string name="widget_label_1x1">No Lock Screen</string>
+    <string name="service_name">No Lock Screen</string>
+    <string name="lockscreen_is_off">Lock Screen is <b>disabled</b>.</string>
+    <string name="activity_preferences">No Lock Screen Settings</string>
+    <string name="select_to_configure">Select to <b>change settings</b>.</string>
+    <string name="tap_to_turn_on">Select to <b>re-enable lock screen</b>.</string>
+    <string name="preferences">Preferences</string>
+    <string name="security_settings">Security Setup</string>
+    <string name="unstable_lock_warning"><b>Warning: Notification disabled.</b>\nLock Screen may re-activate randomly.</string>
+	<string name="no_description"></string>
+	<string name="toggle_lockscreen">Toggle Lock Screen</string>
+    <string name="lockscreen_indicator">Lock Screen Indicator</string>
+    <string name="option_not_supported">Feature is not supported on your device.</string>
+    <string name="PrefCategory_Options">General</string>
+    
+    <string name="PrefTitle_PrefHideNotification">Hide Notification</string>
+    <string name="PrefDesc_PrefHideNotification">Notification will disappear 5 seconds after disabling the lock screen. (Unstable)</string>
+    
+    <string name="PrefCategory_ActivateOnly">Rules</string>
+    
+    <string name="PrefTitle_PrefActivateOnlyWhenCharging">Only When Charging</string>
+    <string name="PrefDesc_PrefActivateOnlyWhenCharging">Only disables the lock screen when charging.</string>
+    <!-- 
+    <string name="PrefTitle_PrefActivateOnlyWhenHeadphonesPluggedIn">Only When Headphones Plugged In</string>
+    <string name="PrefDesc_PrefActivateOnlyWhenHeadphonesPluggedIn">Disable lock screen when headphones are plugged in.</string>
+    
+    <string name="PrefTitle_PrefActivateOnlyWhenDocked">Only When Docked</string>
+    <string name="PrefDesc_PrefActivateOnlyWhenDocked">Disable lock screen when connected to a docking station.</string>
+    
+    <string name="PrefCategory_PreventActivationOn">Prevent Auto Unlock On</string>
+
+	<string name="PrefTitle_PreventActivationOnCameraButton">Camera Button</string>
+    <string name="PrefDesc_PreventActivationOnCameraButton">Don\'t unlock when camera button is pressed.</string>
+    
+    <string name="PrefTitle_PreventActivationOnCallButton">Phone Button</string>
+    <string name="PrefDesc_PreventActivationOnCallButton">Don\'t unlock when call/phone button is pressed.</string>
+     -->
+</resources>

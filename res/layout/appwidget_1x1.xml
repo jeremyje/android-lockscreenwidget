@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:id="@+id/main"
+	android:layout_width="match_parent" android:layout_height="match_parent"
+	android:clickable="true" android:focusable="true"
+	style="@style/WidgetBackground">
+
+    <ImageView android:id="@+id/indKeyguard"
+			android:background="@drawable/appwidget_button_bottom"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:layout_alignParentBottom="true" android:layout_alignParentRight="true" android:layout_alignParentLeft="true"
+			android:clickable="true" android:focusable="true"
+			android:scaleType="fitXY"
+			android:contentDescription="@string/lockscreen_indicator" />
+    
+    <ImageView android:id="@+id/imgKeyguard"
+			android:background="@drawable/appwidget_button_top"
+			android:layout_width="match_parent" android:layout_height="wrap_content"
+			android:scaleType="center"
+			android:contentDescription="@string/lockscreen_indicator"
+			android:layout_above="@id/indKeyguard"
+			android:layout_alignParentTop="true" android:layout_alignParentRight="true" android:layout_alignParentLeft="true" />
+    
+</RelativeLayout>

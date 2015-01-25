@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<style name="StatusText">
+        <item name="android:color">@android:color/white</item>
+        <item name="android:textSize">@dimen/status_text_size</item>
+        <item name="android:gravity">center</item>
+    </style>
+    <style name="WidgetBackground">
+        <item name="android:background">@drawable/appwidget_dark_bg</item>
+    </style>
+</resources>

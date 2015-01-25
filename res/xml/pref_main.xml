@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+	<PreferenceCategory android:title="@string/PrefCategory_Options">
+		<CheckBoxPreference android:key="PrefHideNotification"
+			android:title="@string/PrefTitle_PrefHideNotification" android:summary="@string/PrefDesc_PrefHideNotification" />
+	</PreferenceCategory>
+	
+	<PreferenceCategory android:title="@string/PrefCategory_ActivateOnly" android:key="PrefCategory_ActivateOnly">
+		<CheckBoxPreference android:key="PrefActivateOnlyWhenCharging"
+			android:title="@string/PrefTitle_PrefActivateOnlyWhenCharging" android:summary="@string/PrefDesc_PrefActivateOnlyWhenCharging" />
+		<!-- 
+		<CheckBoxPreference android:key="PrefActivateOnlyWhenHeadphonesPluggedIn"
+			android:title="@string/PrefTitle_PrefActivateOnlyWhenHeadphonesPluggedIn" android:summary="@string/PrefDesc_PrefActivateOnlyWhenHeadphonesPluggedIn" />
+		<CheckBoxPreference android:key="PrefActivateOnlyWhenDocked"
+			android:title="@string/PrefTitle_PrefActivateOnlyWhenDocked" android:summary="@string/PrefDesc_PrefActivateOnlyWhenDocked" />
+		 -->
+	</PreferenceCategory>
+
+</PreferenceScreen>
